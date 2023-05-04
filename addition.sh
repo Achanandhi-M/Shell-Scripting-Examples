@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo "Enter the value"
 read a
 echo "Enter the another value"
