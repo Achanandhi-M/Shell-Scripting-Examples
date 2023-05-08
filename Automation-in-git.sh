@@ -12,7 +12,11 @@ read message
 
 git commit -m "$message"
 
-#git remote add origin "$url"
+echo "Enter the url of the Repository"
+
+read Repository
+
+git remote add origin "$Repository"
 
 git push origin master
 
