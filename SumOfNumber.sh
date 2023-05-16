@@ -11,6 +11,7 @@ do
 	sum=$((sum + i))
 done
 
+
 echo "The sum of $value is : $sum"
 
 
