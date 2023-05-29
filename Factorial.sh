@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 factorial() {
 
 	value=$1
@@ -19,6 +20,7 @@ echo -n "Enter the value:"
 read value
 
 result=$(factorial "$value")
+
 
 echo "Factorial of $value is $result "
 
